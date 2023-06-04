@@ -1,0 +1,18 @@
+.todoApp {
+  height: 100%;
+  background-color: #393e38;
+  color: #d5d1d1;
+  margin-top: 100px;
+}
+
+.todoTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  transition: color 0.2s ease 0s;
+  margin-bottom: 50px;
+}
+
+.todoTitle:hover {
+  color: #e2dfdf;
+}

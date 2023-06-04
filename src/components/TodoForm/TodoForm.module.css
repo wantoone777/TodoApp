@@ -1,0 +1,31 @@
+.formContainer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.input {
+  all: unset;
+  background-color: #d5d1d1;
+  text-align: left;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: #2950f7;
+  height: 30px;
+  border: 2px solid #757675;
+  padding: 8px 12px;
+  font-family: 'Nunito', sans-serif;
+  transition: background 0.3s ease 0s;
+}
+
+.input:focus {
+  background-color: #3A423B;
+  border: 2px solid #d5d1d1;
+  color: #0C97EF;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

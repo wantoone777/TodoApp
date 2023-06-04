@@ -1,0 +1,56 @@
+.todoBlock {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 7px 10px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 7px;
+}
+
+.taskIcon {
+	margin-right: 12px;
+	color: #f1f914;
+	font-size: 18px;
+}
+
+.text {
+	font-size: 18px;
+	letter-spacing: 0.9px;
+}
+
+.text:first-letter {
+	color: #d14747;
+	text-transform: capitalize;
+}
+
+.text::after {
+	content: '.';
+}
+
+.time {
+	font-size: 12px;
+	align-self: flex-end;
+	margin-right: 15px;
+	color: #BEC7BF;
+}
+
+.todoInfo {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.iconRemove,
+.iconCheck {
+	font-size: 26px;
+	transition: all 0.2s ease 0s;
+	cursor: pointer;
+}
+
+.iconRemove:hover {
+	color: #d14747;
+}
+
+.iconCheck:hover {
+	color: #2950f7;
+}

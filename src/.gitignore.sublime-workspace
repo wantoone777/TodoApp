@@ -1,160 +1,160 @@
 {
-    "auto_complete": {
-        "selected_items": []
-    },
-    "buffers": [],
-    "build_system": "",
-    "build_system_choices": [],
-    "build_varint": "",
-    "command_palette": {
-        "height": 0.0,
-        "last_filter": "",
-        "selected_items": [
-            ["theme", "UI: Select Color Scheme"],
-            ["insta", "Package Control: Install Package"],
-            ["install", "Package Control: Install Package"],
-            ["package", "Install Package Control"],
-            ["instal", "Package Control: Install Package"],
-            ["start", "Live Server: Start"],
-            ["live", "Live Server: Start"],
-            ["stop", "Live Server: Stop"],
-            ["server", "Preferences: Live Server Settings"],
-            ["open", "Live Server: Open In Browser"],
-            ["snippet", "Snippet: html"],
-            ["package control", "Package Control: Discover Packages"],
-            ["install pac", "Install Package Control"]
-        ],
-        "width": 0.0
-    },
-    "console": {
-        "height": 0.0,
-        "history": []
-    },
-    "distraction_free": {
-        "menu_visible": true,
-        "show_minimap": false,
-        "show_open_files": false,
-        "show_tabs": false,
-        "side_bar_visible": false,
-        "status_bar_visible": false
-    },
-    "file_history": [
-        "/C/Users/wantoone/Desktop/todo-app/src/App.js",
-        "/C/Users/wantoone/Desktop/todo-app/package.json",
-        "/C/Users/wantoone/Desktop/wantoone777.github.io/index.html",
-        "/C/Users/wantoone/.ssh/known_hosts",
-        "/C/Program Files/Git/etc/profile.d/git-prompt.sh",
-        "/C/Users/wantoone/AppData/Roaming/tabby/config.yaml",
-        "/C/Program Files/Git/usr/etc/profile.d/gawk.sh",
-        "/C/Users/wantoone/Desktop/my-webpack/package.json",
-        "/C/Users/wantoone/Desktop/DOM/main1.html",
-        "/C/Users/wantoone/Desktop/DOM/main.html",
-        "/C/Users/wantoone/Desktop/Primary/DjangoProjects/UniversityProduction/02.02.2023/university/universitygo/urls.py",
-        "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/30/skipper.py",
-        "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/30/test.py",
-        "/C/Users/wantoone/Desktop/middle.py",
-        "/C/Users/wantoone/Desktop/Primary/AK_inf/hometasks/20__17/7/17.py",
-        "/C/Users/wantoone/Desktop/Primary/AK_inf/hometasks/20__17/4_1/1.py",
-        "/C/Users/wantoone/Desktop/localPrimary/summary/postgresql/7_nortwind/init.sql",
-        "/C/Users/wantoone/Desktop/23.py",
-        "/C/Users/wantoone/Desktop/Primary/AK_inf/17__23/rec/main.py",
-        "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/29/classtree.py",
-        "/C/Users/wantoone/Desktop/localPrimary/Lutz/2/classtree.py",
-        "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/29/manynames.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/8.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/9.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/7.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/6.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/5.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/3.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/4.py",
-        "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/3",
-        "/C/Users/wantoone/Desktop/8.py",
-        "/C/Users/wantoone/Desktop/multiply_by_recursion.py",
-        "/C/Users/wantoone/Desktop/pow_by_recursion.py",
-        "/C/Users/wantoone/Desktop/recurs_sum_by_sum.py",
-        "/C/Users/wantoone/Desktop/test/main.py",
-        "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/sass/style.scss",
-        "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/index.html",
-        "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/css/style.css",
-        "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/main.py",
-        "/C/Users/wantoone/Desktop/MyFirstRepo_updated/second.py",
-        "/C/Users/wantoone/Desktop/MyFirstRepo/second.py"
+  "auto_complete": {
+    "selected_items": []
+  },
+  "buffers": [],
+  "build_system": "",
+  "build_system_choices": [],
+  "build_varint": "",
+  "command_palette": {
+    "height": 0.0,
+    "last_filter": "",
+    "selected_items": [
+      ["theme", "UI: Select Color Scheme"],
+      ["insta", "Package Control: Install Package"],
+      ["install", "Package Control: Install Package"],
+      ["package", "Install Package Control"],
+      ["instal", "Package Control: Install Package"],
+      ["start", "Live Server: Start"],
+      ["live", "Live Server: Start"],
+      ["stop", "Live Server: Stop"],
+      ["server", "Preferences: Live Server Settings"],
+      ["open", "Live Server: Open In Browser"],
+      ["snippet", "Snippet: html"],
+      ["package control", "Package Control: Discover Packages"],
+      ["install pac", "Install Package Control"]
     ],
-    "find": {
-        "height": 0.0
-    },
-    "find_in_files": {
-        "height": 0.0,
-        "where_history": []
-    },
-    "find_state": {
-        "case_sensitive": false,
-        "find_history": [],
-        "highlight": true,
-        "in_selection": false,
-        "preserve_case": false,
-        "regex": false,
-        "replace_history": [],
-        "reverse": false,
-        "scrollbar_highlights": true,
-        "show_context": true,
-        "use_buffer2": true,
-        "use_gitignore": true,
-        "whole_word": false,
-        "wrap": true
-    },
-    "groups": [
-        {
-            "sheets": []
-        }
-    ],
-    "incremental_find": {
-        "height": 0.0
-    },
-    "input": {
-        "height": 97.0
-    },
-    "layout": {
-        "cells": [[0, 0, 1, 1]],
-        "cols": [0.0, 1.0],
-        "rows": [0.0, 1.0]
-    },
+    "width": 0.0
+  },
+  "console": {
+    "height": 0.0,
+    "history": []
+  },
+  "distraction_free": {
     "menu_visible": true,
-    "output.find_results": {
-        "height": 0.0
-    },
-    "pinned_build_system": "",
-    "project": ".gitignore.sublime-project",
-    "replace": {
-        "height": 190.0
-    },
-    "save_all_on_build": true,
-    "select_file": {
-        "height": 0.0,
-        "last_filter": "",
-        "selected_items": [],
-        "width": 0.0
-    },
-    "select_project": {
-        "height": 0.0,
-        "last_filter": "",
-        "selected_items": [],
-        "width": 0.0
-    },
-    "select_symbol": {
-        "height": 0.0,
-        "last_filter": "",
-        "selected_items": [],
-        "width": 0.0
-    },
-    "selected_group": 0,
-    "settings": {},
-    "show_minimap": true,
-    "show_open_files": true,
-    "show_tabs": true,
-    "side_bar_visible": true,
-    "side_bar_width": 208.0,
-    "status_bar_visible": true,
-    "template_settings": {}
+    "show_minimap": false,
+    "show_open_files": false,
+    "show_tabs": false,
+    "side_bar_visible": false,
+    "status_bar_visible": false
+  },
+  "file_history": [
+    "/C/Users/wantoone/Desktop/todo-app/src/App.js",
+    "/C/Users/wantoone/Desktop/todo-app/package.json",
+    "/C/Users/wantoone/Desktop/wantoone777.github.io/index.html",
+    "/C/Users/wantoone/.ssh/known_hosts",
+    "/C/Program Files/Git/etc/profile.d/git-prompt.sh",
+    "/C/Users/wantoone/AppData/Roaming/tabby/config.yaml",
+    "/C/Program Files/Git/usr/etc/profile.d/gawk.sh",
+    "/C/Users/wantoone/Desktop/my-webpack/package.json",
+    "/C/Users/wantoone/Desktop/DOM/main1.html",
+    "/C/Users/wantoone/Desktop/DOM/main.html",
+    "/C/Users/wantoone/Desktop/Primary/DjangoProjects/UniversityProduction/02.02.2023/university/universitygo/urls.py",
+    "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/30/skipper.py",
+    "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/30/test.py",
+    "/C/Users/wantoone/Desktop/middle.py",
+    "/C/Users/wantoone/Desktop/Primary/AK_inf/hometasks/20__17/7/17.py",
+    "/C/Users/wantoone/Desktop/Primary/AK_inf/hometasks/20__17/4_1/1.py",
+    "/C/Users/wantoone/Desktop/localPrimary/summary/postgresql/7_nortwind/init.sql",
+    "/C/Users/wantoone/Desktop/23.py",
+    "/C/Users/wantoone/Desktop/Primary/AK_inf/17__23/rec/main.py",
+    "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/29/classtree.py",
+    "/C/Users/wantoone/Desktop/localPrimary/Lutz/2/classtree.py",
+    "/C/Users/wantoone/Desktop/Primary/EDU/Python/Lutz/Lutz_Python/code/2tom/29/manynames.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/8.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/9.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/7.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/6.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/5.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/3.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/4.py",
+    "/C/Users/wantoone/Desktop/localPrimary/AK_inf/homework/19/3",
+    "/C/Users/wantoone/Desktop/8.py",
+    "/C/Users/wantoone/Desktop/multiply_by_recursion.py",
+    "/C/Users/wantoone/Desktop/pow_by_recursion.py",
+    "/C/Users/wantoone/Desktop/recurs_sum_by_sum.py",
+    "/C/Users/wantoone/Desktop/test/main.py",
+    "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/sass/style.scss",
+    "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/index.html",
+    "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/css/style.css",
+    "/C/Users/wantoone/Desktop/Primary/web/2023/02/GoCorona/src/main.py",
+    "/C/Users/wantoone/Desktop/MyFirstRepo_updated/second.py",
+    "/C/Users/wantoone/Desktop/MyFirstRepo/second.py"
+  ],
+  "find": {
+    "height": 0.0
+  },
+  "find_in_files": {
+    "height": 0.0,
+    "where_history": []
+  },
+  "find_state": {
+    "case_sensitive": false,
+    "find_history": [],
+    "highlight": true,
+    "in_selection": false,
+    "preserve_case": false,
+    "regex": false,
+    "replace_history": [],
+    "reverse": false,
+    "scrollbar_highlights": true,
+    "show_context": true,
+    "use_buffer2": true,
+    "use_gitignore": true,
+    "whole_word": false,
+    "wrap": true
+  },
+  "groups": [
+    {
+      "sheets": []
+    }
+  ],
+  "incremental_find": {
+    "height": 0.0
+  },
+  "input": {
+    "height": 97.0
+  },
+  "layout": {
+    "cells": [[0, 0, 1, 1]],
+    "cols": [0.0, 1.0],
+    "rows": [0.0, 1.0]
+  },
+  "menu_visible": true,
+  "output.find_results": {
+    "height": 0.0
+  },
+  "pinned_build_system": "",
+  "project": ".gitignore.sublime-project",
+  "replace": {
+    "height": 190.0
+  },
+  "save_all_on_build": true,
+  "select_file": {
+    "height": 0.0,
+    "last_filter": "",
+    "selected_items": [],
+    "width": 0.0
+  },
+  "select_project": {
+    "height": 0.0,
+    "last_filter": "",
+    "selected_items": [],
+    "width": 0.0
+  },
+  "select_symbol": {
+    "height": 0.0,
+    "last_filter": "",
+    "selected_items": [],
+    "width": 0.0
+  },
+  "selected_group": 0,
+  "settings": {},
+  "show_minimap": true,
+  "show_open_files": true,
+  "show_tabs": true,
+  "side_bar_visible": true,
+  "side_bar_width": 208.0,
+  "status_bar_visible": true,
+  "template_settings": {}
 }

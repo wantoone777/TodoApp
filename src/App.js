@@ -1,12 +1,12 @@
-import todoApp from './components/TodoApp'
+import TodoApp from './components/TodoApp/TodoApp'
 import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <TodoApp />
-    </div>
-  )
+	return (
+		<div className="App">
+			<TodoApp />
+		</div>
+	)
 }
 
 export default App
