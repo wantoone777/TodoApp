@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid'
 import moment from 'moment'
 
 class TodoObj {
@@ -10,7 +10,9 @@ class TodoObj {
     this.isCompleted = false
   }
   getInfo() {
-    console.log(`From Todo obj ${this.text} ${this.time} ${this.isCompleted} Flag is ${this.flag}`)
+    console.log(
+      `From Todo obj ${this.text} ${this.time} ${this.isCompleted} Flag is ${this.flag}`
+    )
   }
 }
 

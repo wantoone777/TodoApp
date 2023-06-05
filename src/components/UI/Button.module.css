@@ -1,7 +1,7 @@
 .button {
   padding: 10px 24px;
-  background-color: #25F582;
-  color: #1FA068;
+  background-color: #25f582;
+  color: #1fa068;
   border-radius: 15px;
   border: none;
   font-size: 16px;
@@ -10,11 +10,11 @@
 }
 
 .button:hover {
-  background-color: #3DCC76;
-  color: #07854B;
+  background-color: #3dcc76;
+  color: #07854b;
 }
 
 .button:active {
-  background-color: #3DCC76;
-  color: #07854B;
+  background-color: #3dcc76;
+  color: #07854b;
 }

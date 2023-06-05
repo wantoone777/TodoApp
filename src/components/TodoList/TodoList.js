@@ -7,7 +7,12 @@ function TodoList(props) {
     !!todoList.length && (
       <ul className={styles.todoList}>
         {todoList.map((todo) => (
-          <Todo todo={todo} key={todo.todoId} removeTodo={removeTodo} toggleCondition={toggleCondition} />
+          <Todo
+            todo={todo}
+            key={todo.todoId}
+            removeTodo={removeTodo}
+            toggleCondition={toggleCondition}
+          />
         ))}
       </ul>
     )

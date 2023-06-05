@@ -19,7 +19,9 @@ function TodoApp() {
   }
 
   const toggleConditionHandler = (todoId) => {
-    todoList.forEach((todo) => (todo.todoId === todoId && (todo.isCompleted = !todo.isCompleted)))
+    todoList.forEach(
+      (todo) => todo.todoId === todoId && (todo.isCompleted = !todo.isCompleted)
+    )
     setTodoList([...todoList])
   }
 
@@ -31,21 +33,38 @@ function TodoApp() {
     setTodoList(todoList.filter((todo) => !todo.isCompleted))
   }
 
-  const completedTodoTasksCount = todoList.filter((todo) => todo.isCompleted).length
+  const completedTodoTasksCount = todoList.filter(
+    (todo) => todo.isCompleted
+  ).length
 
   return (
     <div className={styles.todoApp}>
       <h1 className={styles.todoTitle}>Todo App</h1>
       <TodoForm addTodo={addTodoHandler} />
-      <TodoActions clearAllTodos={clearAllTodosHandler} clearAllDoneTodos={clearAllDoneTodosHandler} />
-      { !!todoList.length ? <TodoList todoList={todoList} removeTodo={removeTodoHandler} toggleCondition={toggleConditionHandler} /> : <h3 className={styles.emptyList}>Todo list is empty</h3>}
-      {!!completedTodoTasksCount ? <p className={styles.doneCount}>You have done {completedTodoTasksCount} {completedTodoTasksCount === 1 ? 'todo' : 'todos'}</p> : <></> }
-
-
+      <TodoActions
+        clearAllTodos={clearAllTodosHandler}
+        clearAllDoneTodos={clearAllDoneTodosHandler}
+      />
+      {!!todoList.length ? (
+        <TodoList
+          todoList={todoList}
+          removeTodo={removeTodoHandler}
+          toggleCondition={toggleConditionHandler}
+        />
+      ) : (
+        <h3 className={styles.emptyList}>Todo list is empty</h3>
+      )}
+      {!!completedTodoTasksCount ? (
+        <p className={styles.doneCount}>
+          You have done {completedTodoTasksCount}{' '}
+          {completedTodoTasksCount === 1 ? 'todo' : 'todos'}
+        </p>
+      ) : (
+        <></>
+      )}
 
       {/*Modal*/}
-      <Modal body="" title="" accept="" close="" />
-
+      <Modal/>
     </div>
   )
 }

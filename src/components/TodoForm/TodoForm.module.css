@@ -18,9 +18,9 @@
 }
 
 .input:focus {
-  background-color: #3A423B;
+  background-color: #3a423b;
   border: 2px solid #d5d1d1;
-  color: #C6D3C5;
+  color: #c6d3c5;
 }
 
 .form {
