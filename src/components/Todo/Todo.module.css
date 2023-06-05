@@ -5,6 +5,11 @@
 	padding: 7px 10px;
 	border-bottom: 1px solid silver;
 	margin-bottom: 7px;
+	border-radius: 4px;
+}
+
+.todoBlock:hover {
+	background-color: #414740;
 }
 
 .taskIcon {
@@ -15,12 +20,22 @@
 
 .text {
 	font-size: 18px;
+	font-style: italic;
 	letter-spacing: 0.9px;
 }
 
 .text:first-letter {
-	color: #d14747;
 	text-transform: capitalize;
+}
+
+.taskIcon.SLVL {
+	color: #ea2e37;
+}
+.taskIcon.ALVL {
+	color: #eb9f0d;
+}
+.taskIcon.BLVL {
+	color: #8e5cd9;
 }
 
 .text::after {
@@ -31,7 +46,7 @@
 	font-size: 12px;
 	align-self: flex-end;
 	margin-right: 15px;
-	color: #BEC7BF;
+	color: #bec7bf;
 }
 
 .todoInfo {

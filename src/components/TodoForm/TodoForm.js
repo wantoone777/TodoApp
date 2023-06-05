@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Button from '../UI/Button'
 import styles from './TodoForm.module.css'
+import ModalButton from '../UI/ModalButton'
 
 function TodoForm(props) {
 	const { addTodo } = props
@@ -10,7 +11,8 @@ function TodoForm(props) {
 		e.preventDefault()
 
 		if (inputText !== '') {
-			addTodo(inputText)
+			const [text, flag='Standard'] = inputText.split('#')
+			addTodo(text, flag === 'Standard' ? flag : flag.toUpperCase())
 			setInputText('')
 		}
 	}
@@ -18,6 +20,7 @@ function TodoForm(props) {
 	return (
 		<div className={styles.formContainer}>
 			<form className={styles.form} action="" onSubmit={onSubmitHandler}>
+				<ModalButton buttonText="" />
 				<input
 					className={styles.input}
 					type="text"

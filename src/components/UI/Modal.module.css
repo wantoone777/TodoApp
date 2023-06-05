@@ -1,0 +1,96 @@
+.title {
+	color: #222;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.body {
+	color: #444;
+}
+.body p {
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.footer {
+	justify-content: center;
+}
+
+.expression {
+	color: #244bf3;
+	padding: 0px 4px;
+	border-radius: 10px;
+	background-color: #a3c1eb;
+}
+
+.expression.example {
+	color: #4b4b4b;
+	padding: 0px 4px;
+	border-radius: 10px;
+	background-color: #969696;
+}
+
+.paletteContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.paletteContainer span:not(:last-child) {
+	margin-right: 10px;
+}
+.paletteContainer span {
+	margin-left: 5px;
+}
+
+.SColour {
+	color: #ea2e37;
+	font-weight: 600;
+}
+
+.AColour {
+	color: #eb9f0d;
+	font-weight: 600;
+}
+
+.BColour {
+	color: #8e5cd9;
+	font-weight: 600;
+}
+
+.SColourBg {
+	background-color: #ea2e37;
+}
+
+.AColourBg {
+	background-color: #eb9f0d;
+}
+
+.BColourBg {
+	background-color: #8e5cd9;
+}
+
+.DefaultColour {
+	color: #f1f914;
+}
+
+.DefaultColourBg {
+	background-color: #f1f914;
+	/* Not semantic rules. Unique rule. Do Not Reuse!!	*/
+	position: relative;
+	top: 5px;
+	border: 1px solid gray;
+}
+
+.examplePallete {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+}
+
+.tiers {
+	background-color: #e8e8e8;
+	padding: 2px 4px;
+	border-radius: 5px;
+}
