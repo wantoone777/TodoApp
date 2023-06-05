@@ -6,12 +6,13 @@ function TodoList(props) {
   return (
     !!todoList.length && (
       <ul className={styles.todoList}>
-        {todoList.map((todo) => (
+        {todoList.map((todo, index) => (
           <Todo
             todo={todo}
             key={todo.todoId}
             removeTodo={removeTodo}
             toggleCondition={toggleCondition}
+            index={index}
           />
         ))}
       </ul>

@@ -1,111 +1,189 @@
 .todoBlock {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 7px 10px;
-  border: 1px solid #657063;
-  margin-bottom: 7px;
-  border-radius: 4px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 7px 10px;
+	border: 1px solid #657063;
+	margin-bottom: 7px;
+	border-radius: 4px;
 }
 
 .todoBlock:hover {
-  background-color: #414740;
+	background-color: #414740;
 }
 
 .taskIcon {
-  margin-right: 12px;
-  color: #f1f914;
-  font-size: 18px;
+	margin-right: 12px;
+	color: #f1f914;
+	font-size: 18px;
 }
 
 .text {
-  font-size: 18px;
-  font-style: italic;
-  letter-spacing: 0.9px;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: 0.9px;
+	padding-right: 10px;
 }
 
 .text:first-letter {
-  text-transform: capitalize;
+	text-transform: capitalize;
 }
 
 .taskIcon.SLVL {
-  color: #ea2e37;
+	color: #ea2e37;
 }
 .taskIcon.ALVL {
-  color: #eb9f0d;
+	color: #eb9f0d;
 }
 .taskIcon.BLVL {
-  color: #8e5cd9;
+	color: #8e5cd9;
 }
 
 .text::after {
-  content: '.';
+	content: '.';
+}
+
+.timeBlock {
+	display: none;
+	font-size: 12px;
+	align-self: flex-end;
+	margin-right: 5px;
+	color: #bec7bf;
+}
+
+.importance {
+	display: none;
 }
 
 .time {
-  font-size: 12px;
-  align-self: flex-end;
-  margin-right: 15px;
-  color: #bec7bf;
+	display: none;
 }
 
 .todoInfo {
-  flex: 1 1 auto;
-  display: flex;
-  justify-content: space-between;
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .todoDone {
-  background-color: #5a6b5c;
-  border-radius: 5px;
-  padding: 1px 2px;
-  color: #ac9898;
-  font-size: 18px;
-  margin-right: 7px;
+	background-color: #5a6b5c;
+	border-radius: 5px;
+	padding: 1px 2px;
+	color: #ac9898;
+	font-size: 18px;
+	margin-right: 7px;
 }
 
 .iconRemove,
 .iconCheck {
-  font-size: 26px;
-  transition: all 0.2s ease 0s;
-  cursor: pointer;
+	font-size: 26px;
+	transition: all 0.2s ease 0s;
+	cursor: pointer;
 }
 
 .iconRemove:hover {
-  color: #d14747;
+	color: #d14747;
 }
 
 .iconCheck:hover {
-  color: #2950f7;
+	color: #2950f7;
 }
 
 .completedTodo {
-  background-color: #4c534b;
+	background-color: #4c534b;
 }
 
 .completedTodo,
-.completedTodo .time {
-  color: #7d7052;
+.completedTodo .timeBlock {
+	color: #7d7052;
 }
 
 .completedTodo .taskIcon {
-  color: #b0b449;
+	color: #b0b449;
 }
 
 .completedTodo .taskIcon.SLVL {
-  color: #a4353a;
+	color: #a4353a;
 }
 .completedTodo .taskIcon.ALVL {
-  color: #bc913d;
+	color: #bc913d;
 }
 .completedTodo .taskIcon.BLVL {
-  color: #71569a;
+	color: #71569a;
 }
 
 .completedTodo .iconRemove:hover {
-  color: #9b4a4a;
+	color: #9b4a4a;
 }
 
 .completedTodo .iconCheck:hover {
-  color: #ccbaba;
+	color: #ccbaba;
+}
+
+.iconContainer {
+	display: flex;
+}
+
+/* media min-width */
+
+@media (min-width: 0px) {
+	.text {
+		font-size: 16px;
+	}
+	.todoBlock {
+		padding-left: 3px;
+		padding-right: 0px;
+	}
+	.iconContainer svg {
+		font-size: 42px;
+	}
+	.svgContainer svg {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 528px) {
+	.timeBlock {
+		display: block;
+	}
+	.time {
+		display: inline-block;
+	}
+	.text {
+		font-size: 18px;
+	}
+	.iconContainer svg {
+		font-size: 40px;
+	}
+	.svgContainer svg {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 648px) {
+	.text {
+		font-size: 20px;
+	}
+	.timeBlock {
+		font-size: 14px;
+	}
+	.importance {
+		display: inline-block;
+	}
+	.svgContainer svg {
+		font-size: 26px;
+	}
+}
+
+@media (min-width: 899px) {
+	.text {
+		font-size: 22px;
+	}
+	.timeBlock {
+		font-size: 16px;
+	}
+	.svgContainer svg {
+		font-size: 28px;
+	}
 }

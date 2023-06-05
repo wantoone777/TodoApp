@@ -11,8 +11,8 @@ function TodoForm(props) {
     e.preventDefault()
 
     if (inputText !== '') {
-      const [text, flag = 'Standard'] = inputText.split('#')
-      addTodo(text, flag === 'Standard' ? flag : flag.toUpperCase())
+      const [text, flag = 'def'] = inputText.split('#')
+      addTodo(text, flag === 'def' ? flag : flag.toUpperCase())
       setInputText('')
     }
   }

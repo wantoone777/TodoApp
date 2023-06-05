@@ -6,7 +6,7 @@ class TodoObj {
     this.flag = flag
     this.todoId = uuidv4()
     this.text = text
-    this.time = moment().format('MMMM Do, h:mm a') // June 4th, 10:35:08 pm
+    this.time = moment().format('Do h:mm a') // June 4th, 10:35:08 pm
     this.isCompleted = false
   }
   getInfo() {
