@@ -16,3 +16,14 @@
 .todoTitle:hover {
   color: #e2dfdf;
 }
+
+.emptyList {
+  text-align: center;
+  font-size: 24px;
+  color: #F34F5E;
+}
+
+.doneCount {
+  text-align: center;
+  font-size: 16px;
+}

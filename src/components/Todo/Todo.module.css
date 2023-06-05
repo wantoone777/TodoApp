@@ -3,7 +3,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	padding: 7px 10px;
-	border-bottom: 1px solid silver;
+	border: 1px solid #657063;
 	margin-bottom: 7px;
 	border-radius: 4px;
 }
@@ -55,6 +55,15 @@
 	justify-content: space-between;
 }
 
+.todoDone {
+	background-color: #5A6B5C;
+	border-radius: 5px;
+	padding: 1px 2px;
+	color: #AC9898;
+	font-size: 18px;
+	margin-right: 7px;
+}
+
 .iconRemove,
 .iconCheck {
 	font-size: 26px;
@@ -68,4 +77,35 @@
 
 .iconCheck:hover {
 	color: #2950f7;
+}
+
+.completedTodo {
+	background-color: #4c534b;
+}
+
+.completedTodo,
+.completedTodo .time {
+	color: #7d7052;
+}
+
+.completedTodo .taskIcon {
+	color: #b0b449;
+}
+
+.completedTodo .taskIcon.SLVL {
+	color: #a4353a;
+}
+.completedTodo .taskIcon.ALVL {
+	color: #bc913d;
+}
+.completedTodo .taskIcon.BLVL {
+	color: #71569a;
+}
+
+.completedTodo .iconRemove:hover {
+	color: #9b4a4a;
+}
+
+.completedTodo .iconCheck:hover {
+	color: #CCBABA;
 }

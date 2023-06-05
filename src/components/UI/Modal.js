@@ -18,7 +18,7 @@ function Modal(props) {
 							className={`modal-title ${styles.title}`}
 							id="exampleModalLabel"
 						>
-							{title}
+							Super syntax is avaible
 						</h5>
 						<button
 							type="button"
@@ -65,7 +65,7 @@ function Modal(props) {
 						</p>
 						<p>
 							You can create Todos without this syntax. Default settings will be
-							next: Importance - None, Colour -{' '}
+							next: Importance - Standard, Colour -{' '}
 							<span
 								className={`${styles.examplePallete} ${styles.DefaultColourBg}`}
 							></span>
